@@ -42,14 +42,6 @@ Product.init(
         key: 'id'
       }
     }
-
-// Integer.
-
-// Doesn't allow null values.
-
-// Set a default value of 10.
-
-// Validates that the value is numeric.
   },
   {
     sequelize,
