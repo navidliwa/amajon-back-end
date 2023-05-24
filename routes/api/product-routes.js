@@ -109,13 +109,13 @@ router.put('/:id', async (req, res) => {
   //     res.status(400).json(err);
   //   });
   try {
-    const [affectedRows] = await Product.update(req.body, {
+    const product = await Product.update(req.body, {
       where: {
         id: req.params.id,
       },
     });
 
-    if (affectedRows === 0) {
+    if (!product) {
       res.status(404).json({ message: 'No product found with that id!' });
       return;
     }

@@ -51,7 +51,7 @@ router.put('/:id', async (req, res) => {
       },
     });
 
-    if (editedCategory[0] === 0) {
+    if (!editedCategory) {
       return res.status(404).json({ message: `Can't find that category!` });
     }
 
