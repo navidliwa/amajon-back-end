@@ -3,7 +3,7 @@
 ## Description
 This project uses the Sequalize and MySQL2 to connect with a MySQL database modeled after an ecommerce platform. The code allows you to create a database and seed it with data fitting the models defined using Sequalize. Once seeded, you can start the database and send GET, POST, PUT and DELETE requests to fetch, update, or delete data from the database.
 
-[Click here for a video demonstrating this project's usage!]()
+[Click here for a video demonstrating this project's usage!](https://www.youtube.com/watch?v=5YGqtcgrD-c)
 
 
 ## Table of Contents
